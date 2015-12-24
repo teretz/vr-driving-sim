@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403406}
+  - 114: {fileID: 11469418}
+  m_Layer: 0
+  m_Name: CONTROL-FREAK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403406
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11469418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83c5e3bf9f87004a8ccf631f8381830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  automaticMode: 1
+  manualGui: 0
+  autoActivate: 1
+  disableWhenNoTouchScreen: 0
+  guiDepth: 10
+  guiPressedOfs: 10
+  fingerBufferCm: .800000012
+  stickMagnetAngleMargin: 10
+  stickDigitalEnterThresh: .5
+  stickDigitalLeaveThresh: .400000006
+  touchTapMaxTime: .13333334
+  doubleTapMaxGapTime: .333333343
+  strictMultiFingerMaxTime: .200000003
+  velPreserveTime: .100000001
+  touchTapMaxDistCm: .5
+  twistThresh: 5
+  pinchMinDistCm: .5
+  twistSafeFingerDistCm: 1
+  curTime: 114.942268
+  deltaTime: 19.2036667
+  invDeltaTime: .0520733893
+  sticks: []
+  touchZones:
+  - initiallyDisabled: 0
+    initiallyHidden: 0
+    prio: 0
+    hitDistScale: 1
+    name: SCREEN
+    disableGui: 1
+    guiDepth: 0
+    layoutBoxId: 0
+    acceptSharedTouches: 1
+    shape: 2
+    posCm: {x: 0, y: 0}
+    sizeCm: {x: 1, y: 1}
+    regionRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    enableSecondFinger: 1
+    nonExclusiveTouches: 0
+    strictTwoFingerStart: 1
+    freezeTwistWhenTooClose: 1
+    noPinchAfterDrag: 0
+    noPinchAfterTwist: 0
+    noTwistAfterDrag: 0
+    noTwistAfterPinch: 1
+    noDragAfterPinch: 0
+    noDragAfterTwist: 0
+    startPinchWhenTwisting: 1
+    startPinchWhenDragging: 0
+    startDragWhenPinching: 1
+    startDragWhenTwisting: 1
+    startTwistWhenDragging: 0
+    startTwistWhenPinching: 0
+    gestureDetectionOrder: 0
+    debugKey: 0
+    releasedImg: {fileID: 2800000, guid: 843f0fef55c05054f854712d832fc29f, type: 3}
+    pressedImg: {fileID: 2800000, guid: 843f0fef55c05054f854712d832fc29f, type: 3}
+    overrideScale: 0
+    releasedScale: 1
+    pressedScale: 1.20000005
+    disabledScale: 1
+    overrideColors: 0
+    releasedColor: {r: .800000012, g: .800000012, b: .800000012, a: .75}
+    pressedColor: {r: 1, g: 1, b: 1, a: 1}
+    disabledColor: {r: .5, g: .5, b: .5, a: .349999994}
+    overrideAnimDuration: 0
+    pressAnimDuration: .100000001
+    releaseAnimDuration: .300000012
+    disableAnimDuration: .200000003
+    enableAnimDuration: .200000003
+    showAnimDuration: 0
+    hideAnimDuration: 0
+    enableGetKey: 0
+    getKeyCode: 0
+    getKeyCodeAlt: 0
+    getKeyCodeMulti: 0
+    getKeyCodeMultiAlt: 0
+    enableGetButton: 0
+    getButtonName: Fire1
+    getButtonMultiName: Fire1Multi
+    emulateMouse: 0
+    mousePosFromFirstFinger: 0
+    enableGetAxis: 0
+    axisHorzName: Mouse X
+    axisVertName: Mouse Y
+    axisHorzFlip: 0
+    axisVertFlip: 0
+    axisValScale: .100000001
+    codeUniJustPressed: 0
+    codeUniPressed: 1
+    codeUniJustReleased: 1
+    codeUniJustDragged: 0
+    codeUniDragged: 0
+    codeUniReleasedDrag: 0
+    codeMultiJustPressed: 0
+    codeMultiPressed: 1
+    codeMultiJustReleased: 1
+    codeMultiJustDragged: 0
+    codeMultiDragged: 0
+    codeMultiReleasedDrag: 0
+    codeJustTwisted: 0
+    codeTwisted: 0
+    codeReleasedTwist: 0
+    codeJustPinched: 0
+    codePinched: 0
+    codeReleasedPinch: 0
+    codeSimpleTap: 0
+    codeSingleTap: 0
+    codeDoubleTap: 0
+    codeSimpleMultiTap: 0
+    codeMultiSingleTap: 0
+    codeMultiDoubleTap: 0
+    codeCustomGUI: 0
+    codeCustomLayout: 0
+  layoutBoxes:
+  - name: Full-Screen
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Right-Half
+    anchor: 5
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: .5
+      y: 0
+      width: .5
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Left-Half
+    anchor: 3
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .5
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Top-Half
+    anchor: 7
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Bottom-Half
+    anchor: 1
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: .5
+      width: 1
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Bottom-Right-Qrtr
+    anchor: 2
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: .5
+      y: .5
+      width: .5
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Bottom-Left-Qrtr
+    anchor: 0
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: .5
+      width: .5
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Top-Right-Qrtr
+    anchor: 8
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: .5
+      y: 0
+      width: .5
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: Top-Left-Qrtr
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .5
+      height: .5
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User09
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User10
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User11
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User12
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User13
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User14
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  - name: User15
+    anchor: 6
+    allowNonuniformScale: 0
+    ignoreLeftHandedMode: 0
+    normalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    horzMarginMax: .5
+    vertMarginMax: .5
+    uniformMargins: 1
+    debugColor: {r: 1, g: 1, b: 1, a: .200000003}
+    debugDraw: 0
+  pressAnimDuration: .100000001
+  releaseAnimDuration: .300000012
+  disableAnimDuration: .300000012
+  enableAnimDuration: .300000012
+  cancelAnimDuration: .300000012
+  showAnimDuration: .300000012
+  hideAnimDuration: .300000012
+  releasedZoneScale: 1
+  pressedZoneScale: 1.10000002
+  disabledZoneScale: 1
+  releasedStickHatScale: .75
+  pressedStickHatScale: .899999976
+  disabledStickHatScale: .75
+  releasedStickBaseScale: 1
+  pressedStickBaseScale: .899999976
+  disabledStickBaseScale: 1
+  defaultPressedZoneColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultReleasedZoneColor: {r: 1, g: 1, b: 1, a: .75}
+  defaultDisabledZoneColor: {r: .5, g: .5, b: .5, a: .349999994}
+  defaultPressedStickHatColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultReleasedStickHatColor: {r: 1, g: 1, b: 1, a: .75}
+  defaultDisabledStickHatColor: {r: .5, g: .5, b: .5, a: .349999994}
+  defaultPressedStickBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultReleasedStickBaseColor: {r: 1, g: 1, b: 1, a: .75}
+  defaultDisabledStickBaseColor: {r: .5, g: .5, b: .5, a: .349999994}
+  debugSecondTouchDragModeKey: 304
+  debugSecondTouchPinchModeKey: 306
+  debugSecondTouchTwistModeKey: 308
+  debugDrawTouches: 1
+  debugDrawLayoutBoxes: 1
+  debugDrawAreas: 1
+  debugTouchSprite: {fileID: 2800000, guid: c1cbdf24d6f02ef408af309e17c24dd8, type: 3}
+  debugSecondTouchSprite: {fileID: 2800000, guid: 0caebb8bec4237244ade4b21110b8c26,
+    type: 3}
+  debugFirstTouchNormalColor: {r: 1, g: 1, b: .600000024, a: .300000012}
+  debugFirstTouchActiveColor: {r: 1, g: 1, b: 0, a: .699999988}
+  debugSecondTouchNormalColor: {r: 1, g: 1, b: 1, a: .300000012}
+  debugSecondTouchActiveColor: {r: 1, g: 0, b: 0, a: .600000024}
+  defaultZoneImg: {fileID: 2800000, guid: 843f0fef55c05054f854712d832fc29f, type: 3}
+  defaultStickHatImg: {fileID: 2800000, guid: e962ceca498cc184982202be7e3b25b0, type: 3}
+  defaultStickBaseImg: {fileID: 2800000, guid: 6a15efc046ec45e419e117a285098afb, type: 3}
+  debugCircleImg: {fileID: 2800000, guid: 1cc0e96f823fd6241ad74c8654ada644, type: 3}
+  debugRectImg: {fileID: 2800000, guid: 601d53dd7651e8844826dcdc691e43e8, type: 3}
+  screenEmuOn: 0
+  screenEmuPortrait: 0
+  screenEmuShrink: 0
+  screenEmuPan: {x: 0, y: 0}
+  screenEmuHwDpi: 163
+  screenEmuMode: 2
+  screenEmuHwHorzRes: 480
+  screenEmuHwVertRes: 320
+  monitorDiagonal: 15
+  screenEmuBorderColor: {r: 0, g: 0, b: 0, a: .75}
+  screenEmuBorderBadColor: {r: .5, g: 0, b: 0, a: .75}
+  rwUnit: 0
+  previewMode: 0
+  version: 6
+  twistSafeFingerDistPx: 37.7952766
+  pinchMinDistPx: 18.8976383
+  touchTapMaxDistPx: 18.8976383
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124440}
+  m_IsPrefabParent: 1
